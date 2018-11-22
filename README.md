@@ -1,6 +1,6 @@
 # Dicee
 
-Simple Dice Rolling app with Motion Detection
+Simple Dice Rolling app with Motion Detection for iOS
 
 ## Demo
 
