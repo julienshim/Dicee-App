@@ -25,7 +25,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="272"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="L9y-Gt-Xya">
-                                                <rect key="frame" x="109" y="72" width="196.00000000000006" height="128"/>
+                                                <rect key="frame" x="11" y="8" width="392" height="256"/>
                                             </imageView>
                                         </subviews>
                                         <constraints>
@@ -37,13 +37,13 @@
                                         <rect key="frame" x="0.0" y="273" width="414" height="272"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="C2Q-3M-pIf">
-                                                <rect key="frame" x="82" y="86" width="250" height="100"/>
+                                                <rect key="frame" x="-18" y="36" width="450" height="200"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="tms-Ew-4NZ" userLabel="Dice Image View 1">
-                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="jtv-Ec-G0Y" userLabel="Dice Image View 2">
-                                                        <rect key="frame" x="150" y="0.0" width="100" height="100"/>
+                                                        <rect key="frame" x="250" y="0.0" width="200" height="200"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
@@ -90,6 +90,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="diceImageView1" destination="tms-Ew-4NZ" id="yQ6-jk-1eB"/>
+                        <outlet property="diceImageView2" destination="jtv-Ec-G0Y" id="hsR-73-kAr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
